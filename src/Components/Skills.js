@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export default function Skills(){
     return(
-        <FullHeight id="Skills">
+    <FullHeight id="Skills">
     <Container className="skill-con">
         <Row>
             <Col> <h2 className="text-warning " id="Skills">Skills</h2></Col>
@@ -53,7 +53,7 @@ export default function Skills(){
             <div className="degree text-white"> -Bachelor of science at Sunway University (2018-2021)</div>
             <div className="foundation text-white">-Completed Mufy (Monash university Foundation year) (2017)</div>
         </Row>
-
+        
     </Container> </FullHeight>
 
     )

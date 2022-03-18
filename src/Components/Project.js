@@ -4,7 +4,9 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import FullHeight from "react-full-height"
-
+import pro1 from "../img/Nanyang.jpg"
+import pro2 from "../img/credit-card.PNG"
+import pro3 from "../img/r7.PNG"
 
 export default function Project(){
     return(
@@ -12,9 +14,9 @@ export default function Project(){
 <Container className="pro-con">
 <h3 className="text-warning">Project</h3>
 <Row>
-  <Col>
+  <Col className="mb-4 mb-md-0">
   <Card style={{ width: '18rem' }}>
-  <Card.Img variant="top" src="/Nanyang.jpg" className="project-image" />
+  <Card.Img variant="top" src={pro1} className="project-image" />
   <Card.Body>
     <Card.Title>Nanyang Kopitian</Card.Title>
     <Card.Text>Simple website build using HTML,CSS and Javascript.</Card.Text>
@@ -23,20 +25,20 @@ export default function Project(){
 </Card>
 </Col>
 
-<Col>
+<Col className="mb-4 mb-md-5" >
   <Card style={{ width: '18rem' }}>
-  <Card.Img variant="top" src="/card.jpg" className="project-image" />
+  <Card.Img variant="top" src={pro2} className="project-image" />
   <Card.Body>
     <Card.Title>Credit Card Fault detection</Card.Title>
-    <Card.Text>Attend kaggle competition and achieved 92 % of accuracy for the model.</Card.Text>
+    <Card.Text>Achieved 92 % of accuracy for the model.</Card.Text>
     <Button variant="primary" href="https://github.com/KKANGsheng/Credit_Card">Link to project </Button>
   </Card.Body>
 </Card>
 </Col>
 
-<Col>
+<Col className="mb-1 mb-md-0">
   <Card style={{ width: '18rem' }}>
-  <Card.Img variant="top" src="/r7.PNG" className="project-image" />
+  <Card.Img variant="top" src={pro3} className="project-image" />
   <Card.Body>
     <Card.Title>Seven miracle</Card.Title>
     <Card.Text>Simple React card.A Simple project to understand React Props.</Card.Text>
@@ -45,8 +47,9 @@ export default function Project(){
 </Card>
 </Col>
 
-
 </Row>
+ 
+<h2 className="text-center text-white text-decoration-none"> <a className="links" href="https://github.com/KKANGsheng">View More</a></h2>
 
 
 

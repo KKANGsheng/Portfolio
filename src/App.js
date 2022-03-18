@@ -9,23 +9,13 @@ import 'font-awesome/css/font-awesome.min.css';
 import {library} from "@fortawesome/fontawesome-svg-core"
 import {fab,faGoogle,faLinkedin} from "@fortawesome/free-brands-svg-icons"
 import Contact from "./Components/Contact"
-import { fas,faEnvelope, faDatabase } from '@fortawesome/free-solid-svg-icons'
+import { fas,faEnvelope, faDatabase,faPhone} from '@fortawesome/free-solid-svg-icons'
 import Footer from "./Components/Footer"
-import data from "./data"
 import Project from "./Components/Project"
 
 library.add(fab,faGoogle,faLinkedin,faDatabase)
-library.add(fas,faEnvelope,faDatabase)
+library.add(fas,faEnvelope,faDatabase,faPhone)
 
-
-const info=data.map(datas=>{
-  return(
-    <Project
-      key={datas.id}
-      infos={datas}
-    />
-  )
-})
 
 
 function App() {

@@ -91,6 +91,22 @@ body{
     width:100%;
 }
 
-.pro-con{
-    padding:0 120px;
+
+
+.icons{
+    transition: transform .3s ease;
+    margin-left:7px;
+}
+
+
+.links{
+    text-decoration: none;
+}
+
+@media (max-width: 400px){
+    .pro-con{
+        padding:40px 120px;
+        overflow-y: hidden; /* Hide vertical scrollbar */
+        overflow-x: hidden; /* Hide horizontal scrollbar */
+    }
 }
