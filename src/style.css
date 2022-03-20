@@ -98,15 +98,35 @@ body{
     margin-left:7px;
 }
 
+.pro-con{
+    padding:0 100px;
+}
+
 
 .links{
     text-decoration: none;
 }
 
-@media (max-width: 400px){
+.more{
+    display:flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 419px){
     .pro-con{
-        padding:40px 120px;
+        padding:20px 110px;
         overflow-y: hidden; /* Hide vertical scrollbar */
         overflow-x: hidden; /* Hide horizontal scrollbar */
+        overflow: hidden;
+        min-height:100vh;
+        width:100vh;
+        overflow:hidden;
+
+    }
+    .skill-con{
+        padding-bottom:50px;
+        overflow: hidden;
     }
 }

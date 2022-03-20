@@ -49,7 +49,7 @@ export default function Project(){
 
 </Row>
  
-<h2 className="text-center text-white text-decoration-none"> <a className="links" href="https://github.com/KKANGsheng">View More</a></h2>
+<h2 className="more"> <a className="links" href="https://github.com/KKANGsheng">View More</a></h2>
 
 
 
