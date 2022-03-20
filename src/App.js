@@ -1,5 +1,4 @@
 import "bootstrap/dist/css/bootstrap.css"
-import 'bootstrap/dist/css/bootstrap.css'
 import Menu from "./Components/Menu"
 import "./style.css"
 import About from "./Components/About"
