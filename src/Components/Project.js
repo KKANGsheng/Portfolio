@@ -14,7 +14,7 @@ export default function Project(){
 <Container className="pro-con">
 <h3 className="text-warning">Project</h3>
 <Row>
-  <Col className="mb-4 mb-md-0">
+  <Col className="mb-4 mb-md-4">
   <Card style={{ width: '18rem' }}>
   <Card.Img variant="top" src={pro1} className="project-image" />
   <Card.Body>
