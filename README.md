@@ -1,3 +1,5 @@
+Just a Simple portfolio for now as I just wanted to get involved in Reactjs.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
