@@ -14,7 +14,7 @@ export default function Project(){
 <Container className="pro-con">
 <h3 className="text-warning">Project</h3>
 <Row>
-  <Col className="mb-4 mb-md-4">
+  <Col className="mb-4 mb-md-5">
   <Card style={{ width: '18rem' }}>
   <Card.Img variant="top" src={pro1} className="project-image" />
   <Card.Body>
@@ -36,7 +36,7 @@ export default function Project(){
 </Card>
 </Col>
 
-<Col className="mb-1 mb-md-0">
+<Col className="mb-1 mb-md-3">
   <Card style={{ width: '18rem' }}>
   <Card.Img variant="top" src={pro3} className="project-image" />
   <Card.Body>
