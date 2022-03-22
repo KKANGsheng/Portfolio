@@ -13,9 +13,46 @@ body{
     color:coral;
 }
 
+.nav-links{
+    font-size:1.5rem;
+}
+
 .highlighted {
     color: #fce38a;
 }
+
+.home-con h1{
+    font-size:40px;
+}
+
+.home-con p{
+    font-size:30px;
+}
+
+.social-media a{
+font-size:40px;
+}
+
+.move-cen p{
+    font-size:30px;
+}
+
+.skill-con p{
+    font-size:30px;
+}
+
+h2{
+    font-size:3rem;
+}
+
+.Education{
+    font-size:30px;
+}
+
+.project p{
+    font-size:20px;
+}
+
 
 .tw{
     font-family:Poppins;
@@ -122,13 +159,15 @@ body{
         min-height:100vh;
         width:100vh;
         overflow:hidden;
-
     }
     .skill-con{
         padding-bottom:50px;
         overflow: hidden;
     }
     #home{
-        font-size:30px;
+        font-size:50px;
     }
 }
+
+
+

@@ -48,8 +48,8 @@ export default function Skills(){
             <p className="text-white">SQL</p>
             </Col>
         </Row>
-        <Row>
-            <h3 className="text-warning">Education</h3>
+        <Row className="Education">
+            <h2 className="text-warning">Education</h2>
             <div className="degree text-white"> -Bachelor of science at Sunway University (2018-2021)</div>
             <div className="foundation text-white">-Completed Mufy (Monash university Foundation year) (2017)</div>
         </Row>
