@@ -1,4 +1,5 @@
-Just a Simple portfolio for now as I just wanted to get involved in Reactjs.
+Build Using HTML,css,barebone React and bootstrap
+
 
 # Getting Started with Create React App
 
